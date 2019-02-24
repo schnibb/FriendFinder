@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Application that takes in user responses to questions and then finds their best possible friend match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schnibb/FriendFinder.git"
+  },
+  "author": "david schnibben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schnibb/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/schnibb/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
